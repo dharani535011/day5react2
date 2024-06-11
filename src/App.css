@@ -1,0 +1,86 @@
+#input{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding: 20px;
+  input{
+      width: 30%;
+      border-radius: 3px;
+      border: 2px green solid;
+      padding: 10px;
+  }
+
+}
+.head{
+  text-align: center;
+  padding: 25px;
+  color: green;
+}
+.box{
+  background-color: rgb(204,245,211);
+  border: 0px;
+  border-radius: 6px;
+  width: 30vw;
+  height: auto;
+  padding: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.button{
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  button{
+      border: 0px;
+      border-radius: 6px;
+  }
+  button:nth-child(1){
+      background-color: green;
+      color: white;
+      padding: 5px;
+      width: 80px;
+  }
+  button:nth-child(2){
+      background-color: orangered;
+      color: white;
+      padding: 5px;
+      width: 80px;
+  }
+}
+select{
+  background-color: orangered;
+  color: white;
+  border: 0px;
+  padding: 3px;
+  border-radius: 4px;
+
+}
+#filter{
+  text-align: center;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+height: 200px;
+width: 100%;
+}
+#select{
+  border: 0px;
+  padding: 4px;
+}
+#status{
+  border: 0px solid black;
+  padding: 2px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
